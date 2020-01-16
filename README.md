@@ -49,7 +49,7 @@ Make sure to provide some bitcode or LLVM IR in `hello.bc` / `hello.ll`. If your
 ### pre-compiled llvm
 
 ```
-./llvm-build/bin/opt -load OutOfTreeLLVMPass.dylib -hello < hello.ll > /dev/null
+../clang+llvm-9.0.0-x86_64-darwin-apple/bin/opt -load OutOfTreeLLVMPass.dylib -hello < hello.ll > /dev/null
 
 ```
 
