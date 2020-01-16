@@ -4,7 +4,7 @@ Template for creating an out of tree llvm pass that can be built with pre-compil
 
 ## Setup the build system
 
-### From llvm sources
+### llvm sources
 
 Clone this repository and the llvm source next to each other and create a build folder. 
 Run cmake from within the build folder:
@@ -16,7 +16,7 @@ cd build
 cmake -DPATH_TO_LLVM=../llvm-project/llvm ../OutOfTreeLLVMPass
 ```
 
-### From pre-compiled llvm
+### pre-compiled llvm
 
 Clone this repoitory and install or download a pre-compiled version of llvm for your system. The example uses macOS and llvm 9.0.0.
 Run cmake from within the build folder.
